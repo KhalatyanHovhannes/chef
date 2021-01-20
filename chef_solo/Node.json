@@ -1,0 +1,10 @@
+{
+    "name"        : "solo",
+    "description" : "solo samole file",
+    "run_list"    : [ "recipe[linux_base]" ],
+    "default"     : {
+        "linux_base" : {
+            "motd" : "chef solo rocks!"
+        }
+    }
+}    
