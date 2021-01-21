@@ -1,7 +1,7 @@
 #!/bin/bash
 # chef install&config
 yum install wget -y
-wget -O- https://opscode.com/chef/install.sh | sudo bash -y
+wget -O- https://opscode.com/chef/install.sh | sudo bash
 mkdir /etc/chef-solo
 mkdir /etc/chef-solo/cookbooks
 mkdir /etc/chef-solo/data_bags
