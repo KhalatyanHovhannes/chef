@@ -10,9 +10,9 @@ mkdir /etc/chef-solo/roles
 cd /etc/chef-solo
 cat <<EOT >> solo.rb
 echo cookbook_path [
-               '/etc/chef-solo/cookbooks',
+               '/etc/chef-solo/cookbooks'
               ]
 data_bag_path '/etc/chef-solo/data_bags'
 file_cache_path '/etc/chef-solo/cache'
-role_path '/etc/chef-solo/roles' > solo.rb
+role_path '/etc/chef-solo/roles'
 EOT
