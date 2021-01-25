@@ -16,3 +16,4 @@ data_bag_path '/etc/chef-solo/data_bags'
 file_cache_path '/etc/chef-solo/cache'
 role_path '/etc/chef-solo/roles'
 EOT
+chef-solo -c solo.rb -J node.json

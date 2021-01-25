@@ -14,7 +14,14 @@
 # .env
 
 # Ignore Byebug command history file.
+.chef
+.chef/*.pem
+.chef/encrypted_data_bag_secret
+.rake_test_cache
 .byebug_history
+clients
+nodes
+files
 
 ## Specific to RubyMotion:
 .dat*

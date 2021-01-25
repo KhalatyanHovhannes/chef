@@ -1,0 +1,1 @@
+msiexec /qn /i C:\inst\chef-client-14.15.6-1-x64.msi
